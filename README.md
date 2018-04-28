@@ -1,3 +1,4 @@
+# INSTRUCCIONES
 # Freelancer
 
 * **Track:** _Common Core_
@@ -62,7 +63,7 @@ a lograr:
   es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
   un inicio ya que no es el objetivo principal del reto :)
 
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+* Puedes ver el [sitio original](h)
   para que te des una idea de como debe quedar.
 
   > Nota: El sitio original tiene ciertos efectos y funcionalidades que
@@ -78,3 +79,23 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+
+***
+
+# Freelancer
+
+## Diseño
+
+### Tipografias
+`Montserrat`
+`Lato`.
+
+### Colores
+`#2c3e50`
+`#18bc9c`
+`#212529`
+
+
+### Mockup
+![estructura inicial](assets/images/mockup.png)
