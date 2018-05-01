@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2, p {
+h2, p, button, .download {
     font-family: 'Lato', sans-serif;
 }
 
@@ -167,7 +167,17 @@ hr {
     margin-left: 45%;
     margin-bottom: 2em;
 }
-
+.about{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.contact{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.start{
+    padding-bottom: 1em;
+}
 .download {
     text-decoration: none;
     color: white;
@@ -185,6 +195,18 @@ input {
 
 #message-input {
     height: 7em;
+}
+
+button{
+    height: 4em;
+    width: 6em;
+    display: block;
+    margin-top: 1em;
+    margin-left: 30%;
+    background-color: #18bc9c;
+    border: none;
+    border-radius: 10%;
+    color: white;
 }
 
 /* around */
