@@ -3,80 +3,74 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Freelancer Master</title>
 </head>
 
 <body>
     <!-- first part  -->
     <header>
-        <navbar>
+        <div class="first-menu">
             <nav class="nav-start">
-                <a href="#">START BOOTSTRAP</a>
+                <a class="link-bar-main" href="#">START BOOTSTRAP</a>
             </nav>
-            <nav>
-                <a href="#">PORTAFOLIO</a>
-                <a href="#">ABOUT</a>
-                <a href="#">CONTACT</a>
+            <nav class="nav-options">
+                <a class="link-bar" href="#">PORTAFOLIO</a>
+                <a class="link-bar" href="#">ABOUT</a>
+                <a class="link-bar" href="#">CONTACT</a>
             </nav>
-        </navbar>
+        </div>
     </header>
     <!-- sections of the page -->
     <main>
         <section class="start">
-            <div class="container">
+            <div class="container" id="container-start">
                 <img src="assets/images/profile.png" alt="photo">
-
-                <h1 class="first-tittle"></h1>
-                <hr class="star-white">
-                <h2 class="second-tittle"></h2>
+                <h1 class="first-tittle">START BOOTSTRAP</h1>
+                <div class="star-white"><i class="fa fa-star"></i></div>
+                <h2 class="second-tittle">Web Developer - Graphic Artist - User Experience Designer</h2>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="portfolio">
             <div class="container">
-                <h1 class="tittle"></h1>
-                <hr class="star-dark">
+                <h1 class="tittle-dark">PORTFOLIO</h1>
+                <div class="star-dark"><i class="fa fa-star"></i></div>
                 <!-- images block -->
                 <div class="container-images">
-                    <div class="image">
-                        <img src="assets/images/portfolio/cabin.png" alt="photo">
-                    </div>
-                    <div class="image">
-                        <img src="assets/images/portfolio/cake.png" alt="photo">
-                    </div>
-                    <div class="image">
-                        <img src="assets/images/portfolio/circus.png" alt="photo">
-                    </div>
-                    <div class="image">
-                        <img src="assets/images/portfolio/game.png" alt="photo">
-                    </div>
-                    <div class="image">
-                        <img src="assets/images/portfolio/safe.png" alt="photo">
-                    </div>
-                    <div class="image">
-                        <img src="assets/images/portfolio/submarine.png" alt="photo">
-                    </div>
+                    <img class="image" src="assets/images/portfolio/cabin.png" alt="photo">
+                    <img class="image" src="assets/images/portfolio/cake.png" alt="photo">
+                    <img class="image" src="assets/images/portfolio/circus.png" alt="photo">
                 </div>
+                <div class="container-images-two">
+                    <img class="image" src="assets/images/portfolio/game.png" alt="photo">
+                    <img class="image" src="assets/images/portfolio/safe.png" alt="photo">
+                    <img class="image" src="assets/images/portfolio/submarine.png" alt="photo">
+                </div>
+            </div>
             </div>
         </section>
         <section class="about">
             <div class="container">
-                <h1 class="tittle"></h1>
-                <hr class="star-dark">
-                <div class="container-left">
-                    <p class="descripcion"></p>
+                <h1 class="tittle">ABOUT</h1>
+                <div class="star-white"><i class="fa fa-star"></i></div>
+                <div class="container-text">
+                    <p class="descripcion">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                 </div>
-                <div class="container-right">
-                    <p class="descripcion"></p>
+                <div class="container-text-two">
+                    <p class="descripcion">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
                 <div class="link-download">
-                    <a href="#" class="download"></a>
+                    <a href="#" class="download"><i class="fa fa-download mr-2"></i>  Download Now!</a>
                 </div>
             </div>
         </section>
         <section class="contact">
             <div class="container">
-                <h1 class="tittle"></h1>
-                <hr class="star-dark">
+                <h1 class="tittle-dark">CONTACT ME</h1>
+                <div class="star-dark"><i class="fa fa-star"></i></div>
                 <!-- forms container  -->
                 <form id="form-general">
                     <div class="input">
@@ -93,7 +87,7 @@
                     </div>
                     <div class="input">
                         <label for="message-input"></label>
-                        <input type="email" id="message-input" placeholder="Message">
+                        <input type="email" id="message-input" placeholder="Message" rows="5">
                     </div>
                     <div class="send">
                         <button type="submit" class="buttom-send"></button>
@@ -103,43 +97,43 @@
         </section>
     </main>
     <footer class="more">
-        <div class="location">
-            <h3></h3>
-            <p class="address"></p>
+        <div class="col-footer">
+            <h3>LOCATION</h3>
+            <p class="address">2215 John Daniel Drive Clark, MO 65243</p>
         </div>
-        <div class="around">
-            <h3></h3>
+        <div class="col-footer">
+            <h3>AROUND THE WEB</h3>
             <ul class="redes">
                 <li class="icon">
-                    <a href="#">
-                        <i class=""></i>
+                    <a class="icon-link" href="#">
+                        <i class="fa fa-fw fa-facebook"></i>
                      </a>
                 </li>
                 <li class="icon">
                     <a href="#">
-                        <i class=""></i>
+                        <i class="fa fa-fw fa-google-plus"></i>
                      </a>
                 </li>
                 <li class="icon">
                     <a href="#">
-                        <i class=""></i>
+                        <i class="fa fa-fw fa-twitter"></i>
                      </a>
                 </li>
                 <li class="icon">
                     <a href="#">
-                        <i class=""></i>
+                        <i class="fa fa-fw fa-linkedin"></i>
                      </a>
                 </li>
                 <li class="icon">
                     <a href="#">
-                        <i class=""></i>
+                        <i class="fa fa-fw fa-dribbble"></i>
                      </a>
                 </li>
             </ul>
         </div>
-        <div class="about-freelancer">
-            <h3></h3>
-            <p class="descripcion"></p>
+        <div class="col-footer">
+            <h3>ABOUT FREELANCER</h3>
+            <p class="descripcion">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
         </div>
     </footer>
     <div class="copy">
